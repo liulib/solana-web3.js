@@ -1,5 +1,18 @@
 # @solana/rpc-types
 
+## 2.1.0
+
+### Patch Changes
+
+-   [#3575](https://github.com/solana-labs/solana-web3.js/pull/3575) [`9b179dc`](https://github.com/solana-labs/solana-web3.js/commit/9b179dc6b7c7e6e4d51481a396567f17665abbc3) Thanks [@lorisleiva](https://github.com/lorisleiva)! - Add missing `space` attribute to `AccountInfoBase` and `BaseAccount`
+
+-   Updated dependencies [[`1adf435`](https://github.com/solana-labs/solana-web3.js/commit/1adf435cfc724303f64e509a6fda144ec8f5019d), [`5af7f20`](https://github.com/solana-labs/solana-web3.js/commit/5af7f2013135a79893a0f190a905c6dd077ac38c)]:
+    -   @solana/addresses@2.1.0
+    -   @solana/codecs-core@2.1.0
+    -   @solana/codecs-numbers@2.1.0
+    -   @solana/codecs-strings@2.1.0
+    -   @solana/errors@2.1.0
+
 ## 2.0.0
 
 ### Patch Changes

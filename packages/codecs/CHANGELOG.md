@@ -1,5 +1,16 @@
 # @solana/codecs
 
+## 2.1.0
+
+### Patch Changes
+
+-   Updated dependencies [[`1adf435`](https://github.com/solana-labs/solana-web3.js/commit/1adf435cfc724303f64e509a6fda144ec8f5019d), [`cfe6910`](https://github.com/solana-labs/solana-web3.js/commit/cfe691010a493d06983a8a2728cda9751135906d)]:
+    -   @solana/codecs-core@2.1.0
+    -   @solana/codecs-data-structures@2.1.0
+    -   @solana/codecs-numbers@2.1.0
+    -   @solana/codecs-strings@2.1.0
+    -   @solana/options@2.1.0
+
 ## 2.0.0
 
 ### Patch Changes

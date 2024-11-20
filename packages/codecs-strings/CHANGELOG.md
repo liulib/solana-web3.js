@@ -1,5 +1,16 @@
 # @solana/codecs-strings
 
+## 2.1.0
+
+### Patch Changes
+
+-   [#3552](https://github.com/solana-labs/solana-web3.js/pull/3552) [`1adf435`](https://github.com/solana-labs/solana-web3.js/commit/1adf435cfc724303f64e509a6fda144ec8f5019d) Thanks [@leantOnSol](https://github.com/leantOnSol)! - A two-versions-old version of Node LTS is now specified everywhere via the `engines` field, including the one in the root of the `pnpm` workspace, and engine-strictness is delegated to the `.npmrc` files.
+
+-   Updated dependencies [[`1adf435`](https://github.com/solana-labs/solana-web3.js/commit/1adf435cfc724303f64e509a6fda144ec8f5019d), [`5af7f20`](https://github.com/solana-labs/solana-web3.js/commit/5af7f2013135a79893a0f190a905c6dd077ac38c)]:
+    -   @solana/codecs-core@2.1.0
+    -   @solana/codecs-numbers@2.1.0
+    -   @solana/errors@2.1.0
+
 ## 2.0.0
 
 ### Patch Changes

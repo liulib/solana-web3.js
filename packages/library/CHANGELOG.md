@@ -1,5 +1,29 @@
 # @solana/web3.js
 
+## 2.1.0
+
+### Patch Changes
+
+-   Updated dependencies [[`1adf435`](https://github.com/solana-labs/solana-web3.js/commit/1adf435cfc724303f64e509a6fda144ec8f5019d), [`9b179dc`](https://github.com/solana-labs/solana-web3.js/commit/9b179dc6b7c7e6e4d51481a396567f17665abbc3), [`5af7f20`](https://github.com/solana-labs/solana-web3.js/commit/5af7f2013135a79893a0f190a905c6dd077ac38c)]:
+    -   @solana/addresses@2.1.0
+    -   @solana/errors@2.1.0
+    -   @solana/keys@2.1.0
+    -   @solana/signers@2.1.0
+    -   @solana/sysvars@2.1.0
+    -   @solana/transaction-confirmation@2.1.0
+    -   @solana/rpc-types@2.1.0
+    -   @solana/accounts@2.1.0
+    -   @solana/instructions@2.1.0
+    -   @solana/programs@2.1.0
+    -   @solana/rpc-parsed-types@2.1.0
+    -   @solana/rpc-subscriptions@2.1.0
+    -   @solana/transaction-messages@2.1.0
+    -   @solana/transactions@2.1.0
+    -   @solana/codecs@2.1.0
+    -   @solana/rpc@2.1.0
+    -   @solana/functional@2.1.0
+    -   @solana/rpc-spec-types@2.1.0
+
 ## 2.0.0
 
 ### Major Changes

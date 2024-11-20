@@ -1,5 +1,19 @@
 # @solana/transaction-messages
 
+## 2.1.0
+
+### Patch Changes
+
+-   Updated dependencies [[`1adf435`](https://github.com/solana-labs/solana-web3.js/commit/1adf435cfc724303f64e509a6fda144ec8f5019d), [`cfe6910`](https://github.com/solana-labs/solana-web3.js/commit/cfe691010a493d06983a8a2728cda9751135906d), [`9b179dc`](https://github.com/solana-labs/solana-web3.js/commit/9b179dc6b7c7e6e4d51481a396567f17665abbc3), [`5af7f20`](https://github.com/solana-labs/solana-web3.js/commit/5af7f2013135a79893a0f190a905c6dd077ac38c)]:
+    -   @solana/addresses@2.1.0
+    -   @solana/codecs-core@2.1.0
+    -   @solana/codecs-data-structures@2.1.0
+    -   @solana/codecs-numbers@2.1.0
+    -   @solana/errors@2.1.0
+    -   @solana/rpc-types@2.1.0
+    -   @solana/instructions@2.1.0
+    -   @solana/functional@2.1.0
+
 ## 2.0.0
 
 ### Patch Changes

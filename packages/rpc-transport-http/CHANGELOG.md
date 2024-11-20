@@ -1,5 +1,33 @@
 # @solana/rpc-transport-http
 
+## 2.1.0
+
+### Minor Changes
+
+-   [#3564](https://github.com/solana-labs/solana-web3.js/pull/3564) [`5af7f20`](https://github.com/solana-labs/solana-web3.js/commit/5af7f2013135a79893a0f190a905c6dd077ac38c) Thanks [@steveluscher](https://github.com/steveluscher)! - When the HTTP transport throws an error, you can now access the response headers through `e.context.headers`. This can be useful, for instance, if the HTTP error is a 429 Rate Limit error, and the response contains a `Retry-After` header.
+
+    ```ts
+    try {
+        const { value: latestBlockhash } = await rpc.getLatestBlockhash().send();
+    } catch (e) {
+        if (isSolanaError(e, SOLANA_ERROR__RPC__TRANSPORT_HTTP_ERROR)) {
+            if (e.context.code === 429 /* rate limit error */) {
+                const retryAfterHeaderValue = e.context.headers.get('Retry-After');
+                if (retryAfterHeaderValue != null) {
+                    // ...
+                }
+            }
+        }
+    }
+    ```
+
+### Patch Changes
+
+-   Updated dependencies [[`1adf435`](https://github.com/solana-labs/solana-web3.js/commit/1adf435cfc724303f64e509a6fda144ec8f5019d), [`5af7f20`](https://github.com/solana-labs/solana-web3.js/commit/5af7f2013135a79893a0f190a905c6dd077ac38c)]:
+    -   @solana/errors@2.1.0
+    -   @solana/rpc-spec@2.1.0
+    -   @solana/rpc-spec-types@2.1.0
+
 ## 2.0.0
 
 ### Patch Changes

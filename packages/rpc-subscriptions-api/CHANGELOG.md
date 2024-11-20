@@ -1,5 +1,18 @@
 # @solana/rpc-subscriptions-api
 
+## 2.1.0
+
+### Patch Changes
+
+-   Updated dependencies [[`1adf435`](https://github.com/solana-labs/solana-web3.js/commit/1adf435cfc724303f64e509a6fda144ec8f5019d), [`9b179dc`](https://github.com/solana-labs/solana-web3.js/commit/9b179dc6b7c7e6e4d51481a396567f17665abbc3)]:
+    -   @solana/addresses@2.1.0
+    -   @solana/keys@2.1.0
+    -   @solana/rpc-types@2.1.0
+    -   @solana/transaction-messages@2.1.0
+    -   @solana/transactions@2.1.0
+    -   @solana/rpc-subscriptions-spec@2.1.0
+    -   @solana/rpc-transformers@2.1.0
+
 ## 2.0.0
 
 ### Patch Changes
